@@ -1,0 +1,9 @@
+hard_tabs     = true
+newline_style = "Unix"
+
+# Comment formatting requires nightly,
+# which is intentionallynot required in this repo or by CI.
+# Nonetheless, we leave the config here to be used locally.
+# Please ignore `cargo fmt` warnings from a stable toolchain.
+comment_width = 100
+wrap_comments = true

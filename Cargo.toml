@@ -1,0 +1,17 @@
+[package]
+name    = "pba-pre-course-assignment"
+version = "1.0.0"
+
+# Your solutions may not require newer editions or versions including nightly.
+rust-version = "1.68"
+edition      = "2021"
+
+# Your solutions must not be shared!
+publish = false
+
+[dependencies]
+count-of           = { path = "./count-of" }
+parity-scale-codec = { version = "3.5.0", features = ["derive"] }
+num                = "0.4.0"
+# There should be NO external additions here, per the honor code.
+# If you want or need to create a local dependency, you may do so.
